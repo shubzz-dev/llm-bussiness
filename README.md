@@ -162,64 +162,9 @@ Try these example queries:
 - **Interactive Charts**: Hover tooltips and legends
 - **Chat History**: Persistent conversation context
 
-## 🚀 Deployment
-
-### Frontend (Vercel/Netlify)
-
-```bash
-cd client
-npm run build
-# Deploy the build/ folder
-```
-
-### Backend (Heroku/Railway)
-
-```bash
-# Set environment variables
-# Deploy the server/ directory
-```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
 
 ## 📝 License
 
 MIT License - see LICENSE file for details
 
-## 🎯 Hackathon Evaluation Criteria
 
-### ✅ Accuracy (40/40)
-- ✅ Smart data retrieval based on query context
-- ✅ Intelligent chart type selection
-- ✅ Graceful error handling for ambiguous queries
-
-### ✅ Aesthetics & UX (30/30)
-- ✅ Modern, clean design with Tailwind CSS
-- ✅ Fully interactive charts with tooltips
-- ✅ Intuitive chat interface with loading states
-
-### ✅ Approach & Innovation (30/30)
-- ✅ Robust text → LLM → Data → Frontend pipeline
-- ✅ Clever prompt engineering for accurate results
-- ✅ CSV upload for data-agnostic functionality
-
-### 🎁 Bonus Points
-- ✅ **Follow-up Questions** (10/10): Chat with your dashboard
-- ✅ **Data Format Agnostic** (20/20): Upload any CSV file
-
-## 🏆 Demo Script
-
-1. **Introduction** - Show the clean interface
-2. **Basic Query** - "Show me monthly sales by region"
-3. **Complex Query** - "What's the revenue trend for laptops over time?"
-4. **Follow-up** - "Now filter to just North region"
-5. **Custom Data** - Upload a new CSV and query it
-6. **Conclusion** - Highlight key features and tech stack
-
----
-
-**Built with ❤️ for the hackathon**
